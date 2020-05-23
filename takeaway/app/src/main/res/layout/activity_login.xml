@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            tools:context="br.com.takeaway.ActivityLogin">
+
+            <TextView
+                android:id="@+id/textViewInserirCredenciaisUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/inserirLoginESenha"
+                android:textSize="24sp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/acaiLogin"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@drawable/takeaway_login_usuario"
+                app:civ_border_width="1dp" />
+
+            <EditText
+                android:id="@+id/editTextLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:hint="@string/editTextLogin"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="@string/editTextSenha"
+                android:inputType="textPassword"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonSubmitInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#6A2880"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:text="@string/submitButton"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mensagemAntesDeCriarConta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textSize="16sp"
+                    android:text="@string/naoPossuiConta"/>
+
+                <TextView
+                    android:id="@+id/textViewCriarConta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="#1976D2"
+                    android:text="@string/cliqueAqui"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

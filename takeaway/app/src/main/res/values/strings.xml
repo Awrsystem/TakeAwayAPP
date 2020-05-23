@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Mensagens de Fluxo de Dados -->
+    <string name="app_name">MeuAcai</string>
+    <string name="textViewEscolha">Quem é você?</string>
+    <string name="buttonCliente">Cliente</string>
+    <string name="buttonAtendente">Atendente</string>
+    <string name="inserirLoginESenha">Insira suas credenciais: </string>
+    <string name="editTextLogin">Login</string>
+    <string name="editTextSenha">Senha</string>
+    <string name="naoPossuiConta">Não possui uma conta?</string>
+    <string name="cliqueAqui">Crie a sua aqui!</string>
+    <string name="submitButton">Entrar</string>
+    <string name="mensagemActivityUsuarioPedidosCaseVazio">Não há chamados em aberto no momento</string>
+    <integer name="editTextMaxLength">3</integer>
+    <string name="buttonConfirmarPedido">Confirmar Pedido</string>
+    <string name="mensagemResumoPedido">Confira o resumo de seu pedido:</string>
+
+    <!-- Criação De Conta -->
+    <string name="insiraSeusDados">Insira seus dados:</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="dataDeNascimento">Data de nascimento</string>
+    <string name="cpf">CPF</string>
+    <string name="endereco">Endereço</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="buttonConfirmarCadastro">Confirmar</string>
+    <string name="confirmarDadosDeCadastro">Confirme seus dados:</string>
+    <string name="buttonFinalizarCadastro">Finalizar Cadastro</string>
+    <string name="cadastroFinalizado">Cadastro finalizado com sucesso :)</string>
+    <string name="buttonVoltaParaATelaDeLogin">Acessar minha conta</string>
+    <string name="buttonVoltaParaATelaPrincipal">Voltar para Home</string>
+
+    <!-- Área Atendente -->
+    <string name="textViewEscolhaChamadosOuRelatorios">Escolha a ação que deseja executar:</string>
+    <string name="visualizarChamadosEmAberto">Visualizar chamados em aberto</string>
+    <string name="gerarRelatorios">Gerar Relatórios</string>
+
+    <!-- Dados Pedido -->
+    <string name="insercaoDadosSolicitacaoDadosChamado">Faça seu pedido abaixo: </string>
+    <string name="quantidade">Quantidade:</string>
+    <string name="peso">Peso:</string>
+    <string name="coberturas">Coberturas (R$ 0,50 cada):</string>
+    <string name="acompanhamentos">Acompanhamentos</string>
+    <string name="acompanhamentosContinuacao">(R$ 0,50 cada):</string>
+    <string name="precoFinal">Preço Final:</string>
+
+    <!-- Edit Text Hint -->
+    <string name="editTextQuantidade">Insira aqui a quantidade desejada</string>
+
+    <!-- Peso -->
+    <string name="selecioneOPeso">Selecione o peso</string>
+    <string name="cemGramas">100g - R$ 4,00</string>
+    <string name="duzentasGramas">200g - R$ 5,00</string>
+    <string name="trezentasGramas">300g - R$ 8,00</string>
+    <string name="quatrocentasGramas">400g - R$ 10,00</string>
+    <string name="quinhentasGramas">500g - R$ 12,00</string>
+    <string name="setecentasGramas">700g - R$ 14,00</string>
+    <string name="umQuilo">1Kg - R$ 19,00</string>
+
+    <!-- Array de pesos -->
+    <string-array name="arrayPesos">
+
+        <item name="cemGramas">@string/cemGramas</item>
+        <item name="duzentasGramas">@string/duzentasGramas</item>
+        <item name="trezentasGramas">@string/trezentasGramas</item>
+        <item name="quatrocentasGramas">@string/quatrocentasGramas</item>
+        <item name="quinhentasGramas">@string/quinhentasGramas</item>
+        <item name="setecentasGramas">@string/setecentasGramas</item>
+        <item name="umQuilo">@string/umQuilo</item>
+
+    </string-array>
+
+    <!-- Coberturas -->
+    <string name="coberturaDeAbacaxi">Abacaxi</string>
+    <string name="coberturaDeChocolate">Chocolate</string>
+    <string name="coberturaDeCupuacu">Cupuaçú</string>
+    <string name="coberturaDeKiwi">Kiwi</string>
+    <string name="coberturaDeMorango">Morango</string>
+    <string name="leiteCondensado">Leite Condensado</string>
+    <string name="mel">Mel</string>
+
+    <!-- Acompanhamentos -->
+    <string name="abacate">Abacate</string>
+    <string name="abacaxi">Abacaxi</string>
+    <string name="banana">Banana</string>
+    <string name="cupuacu">Cupuaçú</string>
+    <string name="granola">Granola</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="morango">Morango</string>
+
+</resources>

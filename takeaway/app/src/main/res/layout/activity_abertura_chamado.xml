@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#F3E5F5"
+    tools:context="br.com.takeaway.ActivityAberturaChamado">
+
+    <TextView
+        android:id="@+id/textViewChamado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/mensagemActivityUsuarioPedidosCaseVazio"
+        android:textSize="24sp"
+        android:textColor="#212121"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/addFloatingButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_plus"/>
+
+</RelativeLayout>

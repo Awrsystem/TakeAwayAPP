@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="br.com.takeaway.ActivityCriarConta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/insiraSeusDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/insiraSeusDados"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName|textCapWords|textNoSuggestions"
+            android:hint="@string/nome" />
+
+        <EditText
+            android:id="@+id/sobrenome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:inputType="textPersonName|textCapWords|textNoSuggestions"
+            android:hint="@string/sobrenome" />
+
+        <EditText
+            android:id="@+id/dataDeNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:inputType="date|textNoSuggestions"
+            android:hint="@string/dataDeNascimento" />
+
+        <EditText
+            android:id="@+id/cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:inputType="number|textNoSuggestions"
+            android:gravity="center_horizontal"
+            android:hint="@string/cpf" />
+
+        <EditText
+            android:id="@+id/endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:inputType="text|textNoSuggestions"
+            android:hint="@string/endereco" />
+
+        <EditText
+            android:id="@+id/telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:inputType="number|textNoSuggestions"
+            android:gravity="center_horizontal"
+            android:hint="@string/telefone" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:hint="@string/email" />
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:inputType="textPassword|textNoSuggestions"
+            android:hint="@string/senha" />
+
+        <Button
+            android:id="@+id/buttonConfirmarCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="#6A2880"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:text="@string/buttonConfirmarCadastro" />
+
+    </LinearLayout>
+
+</ScrollView>

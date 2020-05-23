@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    tools:context="br.com.takeaway.ActivityAberturaChamado">
+
+    <TextView
+        android:id="@+id/textViewChamado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/mensagemActivityUsuarioPedidosCaseVazio"
+        android:textSize="24sp"
+        android:textColor="#212121"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/fechaAtendimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6A2880"
+            android:textColor="#FFFFFF"
+            android:text="Fechar Atendimento"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+</LinearLayout>

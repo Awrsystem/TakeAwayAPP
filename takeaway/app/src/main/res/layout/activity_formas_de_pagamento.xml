@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.takeaway.ActivityFormasDePagamento">
+
+    <TextView
+        android:id="@+id/mensagemResumoPedido"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Formas de pagamento" />
+
+    <Button
+        android:id="@+id/debito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:text="Débito (Bankline)"/>
+
+    <Button
+        android:id="@+id/credito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:text="Crédito"/>
+
+    <Button
+        android:id="@+id/paypal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:text="PayPal"/>
+
+    <Button
+        android:id="@+id/pagSeguro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:text="Pag Seguro"/>
+
+    <Button
+        android:id="@+id/menuPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:text="Menu Principal"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.takeaway.ActivityAmbienteAtendenteRelatorioOuChamado">
+
+    <TextView
+        android:id="@+id/textViewEscolhaChamadosOuRelatorios"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/textViewEscolhaChamadosOuRelatorios"/>
+
+    <Button
+        android:id="@+id/visualizarChamadosEmAberto"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewEscolhaChamadosOuRelatorios"
+        android:layout_height="wrap_content"
+        android:text="@string/visualizarChamadosEmAberto"/>
+
+    <Button
+        android:id="@+id/gerarRelatorios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#6A2880"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_below="@id/visualizarChamadosEmAberto"
+        android:text="@string/gerarRelatorios"/>
+
+</RelativeLayout>
